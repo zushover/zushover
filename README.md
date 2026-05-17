@@ -1,47 +1,44 @@
-<p align="center">
-  <samp>hover / zushover</samp><br>
-  <sub>ML Research · Efficient AI · Personal Automation</sub>
-</p>
+<div align="center">
+  <h1>hover</h1>
+  <p>
+    <img src="https://img.shields.io/badge/Efficient_AI-Quant_|_Prune_|_KV_Cache-1c1c1e?style=flat-square" />
+    <img src="https://img.shields.io/badge/Focus-Model_Compression_&_Deployment-c44a2a?style=flat-square" />
+    <img src="https://img.shields.io/badge/Stack-Python_|_TypeScript_|_Go-8c8880?style=flat-square" />
+  </p>
+  <p>Shanghai · ML Researcher & Systems Builder</p>
+</div>
 
 ---
 
-I work on making large models smaller, faster, and cheaper to run — not as an academic exercise, but as an engineering constraint you can feel in your GPU memory and your wallet.
+## Projects
 
-### What I care about
+| 项目 | 说明 | 亮点 |
+|---|---|---|
+| [**efficient-ai-learning-roadmap**](https://github.com/zushover/efficient-ai-learning-roadmap) | Efficient AI 渐进学习路线：量化、剪枝、蒸馏、投机解码、KV Cache 优化、工业实践 | 5 阶段 50+ 论文，带链接和优先级 |
+| [**cc-automation-workstation**](https://github.com/zushover/cc-automation-workstation) | 手机 Telegram 控制电脑 Claude Code + Obsidian 的全自动工作地基 | 完整部署手册，0 依赖第三方云 |
+| [**cc-autodl**](https://github.com/zushover/cc-autodl) | AutoDL GPU 云实例管理器 | CLI + 系统托盘 + Web 面板，一站式 |
 
-**Efficient AI.** Quantization, pruning, KV cache optimization, speculative decoding. The whole pipeline from weight compression to inference-time acceleration. If it makes a model run on less hardware without breaking, I want to understand it.
+## Tech Stack
 
-**The memory problem.** LLMs need to remember — across turns, across sessions, across tasks. Context windows don't solve this. I'm tracking every serious attempt at memory mechanisms (KV cache eviction strategies, online state models, external memory banks) to find the one primitive that actually works.
+```
+Quantization:    GPTQ → AWQ → QLoRA → BitNet → OSAQ
+Pruning:         SparseGPT → Wanda → UniComp
+KV Cache:        StreamingLLM → H2O → DuoAttention → KVzip → TurboQuant → CompilerKV
+Spec. Decoding:  EAGLE-3 → DFlash → RACER
+Deploy:          vLLM · SGLang · llama.cpp · DeepSpeed
+Industry:        DeepSeek V3 · Kimi · ByteDance · Baidu Kunlun
+```
 
-**AI as infrastructure.** I build systems where AI agents don't just answer prompts — they run your workstation while you're away. Telegram → Claude Code → Obsidian, fully automated. The agent isn't the product; the pipeline is.
+## Skills & Tools
 
-### How I work
-
-- **First-principles first.** Start from the constraint, not the solution. Why is quantization error structured the way it is? What does the KV cache actually need to store?
-- **Build to understand.** Reading papers isn't enough. Run the code, hit the OOM, profile the bottleneck — then read the paper again.
-- **Compression reveals structure.** The bits you can throw away tell you what matters. SQP, delta-rule memory, per-channel quantization — different surfaces, same underlying principle.
-
-### What I'm building
-
-| | |
+| Skill | 用途 |
 |---|---|
-| **[efficient-ai-learning-roadmap](https://github.com/zushover/efficient-ai-learning-roadmap)** | 5-phase progressive path through Efficient AI. 50+ curated papers with links. Quantization → pruning → KV cache → speculative decoding → industrial practice. |
-| **[cc-automation-workstation](https://github.com/zushover/cc-automation-workstation)** | Telegram-controlled Claude Code + Obsidian workstation. Full deployment guide — phone in your pocket, agent on your desktop. |
-| **[cc-autodl](https://github.com/zushover/cc-autodl)** | AutoDL GPU manager. CLI + system tray + web dashboard. Manage cloud GPU instances without touching the console. |
-
-### Current compass
-
-```
-Quantization:  GPTQ → AWQ → BitNet → OSAQ
-Pruning:       SparseGPT → Wanda → UniComp
-KV Cache:      StreamingLLM → DuoAttention → KVzip → TurboQuant → CompilerKV
-Deploy:        DeepSeek V3 · Kimi · ByteDance
-```
-
-Open questions I'm tracking: Can 1-bit LLMs scale to 100B+? What exactly does compression break in reasoning? Is there a unified memory primitive that replaces both KV cache and external retrieval?
+| [**seestarai-xiaohongshu**](https://github.com/zushover/seestarai-xiaohongshu) | Claude Code skill：全自动 AI 行业日报 → 10 页小红书 HTML 卡片 |
+| [**ljg-xray-paper**](https://github.com/zushover/ljg-xray-paper) | Claude Code skill：论文 X 光解读 → Obsidian 知识卡片 |
+| **Obsidian Second Brain** | 本地知识库 + AI 自动读写 + 记忆持久化 |
 
 ---
 
-<p align="center">
-  <sub>Shanghai · <a href="https://github.com/zushover">github.com/zushover</a></sub>
-</p>
+<div align="center">
+  <sub>github.com/zushover</sub>
+</div>
