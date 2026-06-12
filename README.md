@@ -10,21 +10,23 @@
 
 ---
 
+## 🔥 Featured
+
+### [Triple A](https://github.com/zushover/TripleA) — AI Agent GPU 云管理桌面应用
+
+自然语言操控 GPU 实例，多 Agent 协作，共享记忆，一键部署 Claude Code。LangGraph ReAct Master Agent（8 个 Tool）+ MCP Server + ChromaDB 向量记忆。Tauri 2 + Vue 3 + Python FastAPI。点 ☀️ 按钮一键 SSH 部署 Claude Code 到 GPU 服务器。
+
+`LangGraph` `LangChain` `MCP` `ChromaDB` `FastAPI` `Tauri` `Vue 3` `DeepSeek`
+
+<br>
+
 ## Projects
 
 ### [cc-automation-workstation](https://github.com/zushover/cc-automation-workstation) — 手机遥控电脑的全自动工作地基
 
-一套完整部署手册：Telegram Bot → cc-connect 桥接 → Claude Code Agent → Obsidian 第二大脑。你在外面用手机发消息，家里电脑执行任务——写代码、做调研、查资料、跑测试——结果自动归档 Obsidian，手机 App 随时翻阅。覆盖 Telegram Bot 创建、DeepSeek API 配置、代理注入、cc-switch 多档案管理、开机自启、故障排查全流程。
+Telegram Bot → cc-connect → Claude Code → Obsidian。手机发消息，电脑执行任务——代码、调研、测试——结果自动归档。
 
-`cc-connect` `cc-switch` `Claude Code` `DeepSeek v4` `Obsidian` `Telegram Bot`
-
-<br>
-
-### [cc-autodl](https://github.com/zushover/cc-autodl) — AutoDL GPU 云实例管理器
-
-CLI + 系统托盘 + Web 面板（localhost:8899），一站式管理 AutoDL GPU 实例。15 个 CLI 子命令覆盖开机/关机/释放/余额/费用/训练脚本上传/远程命令执行，系统托盘 4 色状态图标 + 右键快捷操作，Web 面板提供 HTML 仪表盘。打包为单文件 exe (~28MB)，无需安装 Python。
-
-`Python` `FastAPI` `pystray` `paramiko` `PyInstaller`
+`cc-connect` `Claude Code` `DeepSeek` `Obsidian` `Telegram`
 
 <br>
 
