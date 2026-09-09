@@ -26,7 +26,7 @@
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [GCube](https://github.com/zushover/GCube)
+### ⚙️ [GoldenCube](https://github.com/zushover/GCube)
 
 An experimental LLM inference engine for exploring efficient model serving.
 
