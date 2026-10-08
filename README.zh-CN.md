@@ -1,57 +1,57 @@
 <div align="center">
   <h1>hover</h1>
-  <p><sub>Shanghai Jiao Tong University</sub></p>
+  <p><sub>上海交通大学</sub></p>
   <p>
-    <b>English</b> &nbsp; / &nbsp;
-    <a href="README.zh-CN.md">简体中文</a> &nbsp; · &nbsp;
-    <a href="https://github.com/zushover?tab=repositories">Repositories ↗</a>
+    <a href="README.md">English</a> &nbsp; / &nbsp;
+    <b>简体中文</b> &nbsp; · &nbsp;
+    <a href="https://github.com/zushover?tab=repositories">全部仓库 ↗</a>
   </p>
 </div>
 
 <br>
 
-## Projects
+## 项目
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <sub>INFERENCE</sub>
+      <sub>模型推理</sub>
       <h3><a href="https://github.com/zushover/GCube">GoldenCube ↗</a></h3>
-      <p>Experimental LLM inference engine and model-serving experiments.</p>
+      <p>实验性大语言模型推理引擎与模型服务实验。</p>
       <p><sub>Python</sub></p>
     </td>
     <td width="50%" valign="top">
-      <sub>OBSERVABILITY</sub>
+      <sub>运行观测</sub>
       <h3><a href="https://github.com/zushover/NebulaScope">NebulaScope ↗</a></h3>
-      <p>Live GPU telemetry, inference metrics, and KV cache monitoring.</p>
+      <p>实时查看 GPU 状态、推理指标和 KV Cache 使用情况。</p>
       <p><sub>Python</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>WEATHER &amp; MARKETS</sub>
-      <h3><a href="https://github.com/zushover/red-eye-monroe-public">Red Eye Monroe ↗</a></h3>
-      <p>Station observations, city probability models, market visualization, and portfolio tracking.</p>
+      <sub>天气与市场</sub>
+      <h3><a href="https://github.com/zushover/red-eye-monroe-public">Red Eye Monroe · 红眼曼罗 ↗</a></h3>
+      <p>气象站实况、城市概率模型、市场可视化与持仓监测。</p>
       <p><sub>Go · JavaScript</sub></p>
     </td>
     <td width="50%" valign="top">
-      <sub>GPU OPERATIONS</sub>
+      <sub>GPU 云管理</sub>
       <h3><a href="https://github.com/zushover/TripleA">TripleA ↗</a></h3>
-      <p>Desktop workspace for GPU cloud resources and agent-driven experiment workflows.</p>
+      <p>管理 GPU 云资源，通过智能体组织和运行研究实验。</p>
       <p><sub>Python</sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub>CAMPUS</sub>
+      <sub>校园应用</sub>
       <h3><a href="https://github.com/zushover/HoverDate">HoverDate ↗</a></h3>
-      <p>Campus matching through questionnaires and compatibility scoring.</p>
+      <p>基于问卷与契合度评分的校园匹配应用。</p>
       <p><sub>TypeScript</sub></p>
     </td>
     <td width="50%" valign="top">
-      <sub>CONTENT WORKFLOW</sub>
+      <sub>内容工作流</sub>
       <h3><a href="https://github.com/zushover/seestarai-xiaohongshu">SeestarAI Xiaohongshu ↗</a></h3>
-      <p>Verified AI news transformed into Xiaohongshu cards and copy.</p>
+      <p>筛选和核验 AI 新闻，生成小红书卡片与文案。</p>
       <p><sub>HTML · Claude Code skill</sub></p>
     </td>
   </tr>
