@@ -57,6 +57,10 @@ A campus matching web application based on questionnaires and compatibility scor
 </tr>
 </table>
 
+### ◉ [Red Eye Monroe](https://github.com/zushover/red-eye-monroe-public)
+
+A global weather-market research platform combining station observations, forecast models, city-specific probability calibration, interactive market visualization, and portfolio monitoring. Built with Go and JavaScript, with chronological validation and execution reconciliation.
+
 ### ✦ [SeestarAI Xiaohongshu](https://github.com/zushover/seestarai-xiaohongshu)
 
 A Claude Code skill that selects and verifies the day's best AI news, then turns it into Xiaohongshu cards and copy.
